@@ -1,0 +1,595 @@
+/* 
+	Universal Edits
+*/
+body {
+  margin: 0px;
+  border: 0px;
+  background-color: #525659;
+}
+
+/* 
+	Main Div - A4 SIZE 150 PPI
+*/
+#main-div {
+  width: 50%;
+  height: 1754px;
+  background-color: white;
+
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: auto;
+
+  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 
+	Header Images and Text
+*/
+#header-div {
+  position: relative;
+  top: 69px;
+
+  background-color: #f5da57;
+  height: 180px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Text Div */
+#user-name,
+#user-job {
+  width: auto;
+  margin-right: 55%;
+
+  position: relative;
+  top: 10px;
+  left: 50px;
+
+  font-weight: 500;
+}
+
+#user-name p {
+  position: inherit;
+  top: 13px;
+  margin: 0px;
+  font-size: 60px;
+}
+
+#user-job p {
+  margin: 0px;
+  font-size: 25px;
+}
+
+/* 
+	Contact Div
+*/
+
+#contact {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: -128px;
+
+  margin-left: 56.35%;
+  height: 180px;
+  width: 452px;
+}
+
+#contact-ph,
+#contact-email,
+#contact-loc {
+  height: 53px;
+  width: 430px;
+
+  position: relative;
+  left: 14px;
+}
+#contact-email {
+  top: 8.5px;
+}
+
+#contact-loc {
+  top: 18px;
+}
+
+/* Contact Logo Boxes */
+#ph-logobox,
+#email-logobox,
+#loc-logobox {
+  background-color: #292d2d;
+  position: relative;
+  left: 0px;
+
+  height: 53px;
+  width: 53px;
+}
+
+#ph-logobox img {
+  height: 50px;
+  width: 50px;
+}
+
+#email-logobox img {
+  margin-top: 7px;
+  height: 40px;
+  width: 40px;
+}
+
+#loc-logobox img {
+  margin-top: 7px;
+  height: 40px;
+  width: 40px;
+}
+
+/* Contact Texts */
+
+#ph-text,
+#email-text,
+#loc-text {
+  position: relative;
+  left: 80px;
+  top: -69px;
+
+  height: 53px;
+  width: 320px;
+}
+
+#ph-text p {
+  position: relative;
+
+  height: 53px;
+  width: 320px;
+
+  text-align: left;
+}
+
+#email-text p {
+  position: relative;
+
+  height: 53px;
+  width: 320px;
+
+  text-align: left;
+}
+
+#loc-text p {
+  position: relative;
+
+  height: 53px;
+  width: 320px;
+
+  text-align: left;
+}
+
+#contact-key {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #292d2d;
+}
+
+#contact-value {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #525659;
+}
+
+#loc-text #contact-value {
+  text-transform: capitalize;
+}
+
+/* 
+	LEFT BANNER
+*/
+#left-panel {
+  background-color: #292d2d;
+  height: 1574px;
+  width: 518px;
+  float: left;
+}
+
+/* Skills Box*/
+#skills {
+  position: relative;
+  top: 120px;
+  left: 120px;
+  height: 1400px;
+  width: 320px;
+}
+
+#skills > p {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: xx-large;
+  color: white;
+  letter-spacing: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#personal-skills p,
+#language-skills p,
+#personal-projects p {
+  text-align: left;
+
+  padding-bottom: 5px;
+
+  position: relative;
+  left: 7px;
+
+  text-transform: uppercase;
+  font-size: x-large;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  position: relative;
+  left: 0px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #a5a5a2;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+/* 
+	WORK EXPERIENCE
+*/
+
+/* ENTRY 1 */
+#circle1 img {
+  position: absolute;
+  top: 80px;
+  left: 162px;
+  height: 50px;
+  width: 50px;
+}
+
+#entry1 #entry1-key {
+  position: absolute;
+  top: 63px;
+
+  font-size: 12pt;
+}
+
+#entry1 #entry1-value {
+  position: absolute;
+  top: 63px;
+  left: 250px;
+
+  font-size: 12pt;
+}
+
+#entry1 #entry1-desc {
+  position: absolute;
+  top: 150px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* ENTRY 2 */
+#circle2 img {
+  position: absolute;
+  top: 220px;
+  left: 162px;
+  height: 50px;
+  width: 50px;
+}
+
+#entry2 #entry2-key {
+  position: absolute;
+  top: 205px;
+
+  font-size: 12pt;
+}
+
+#entry2 #entry2-value {
+  position: absolute;
+  top: 205px;
+  left: 250px;
+
+  font-size: 12pt;
+}
+#work-experience {
+  /* background-color: aqua; */
+  height: 1000px;
+  width: 500px;
+
+  position: relative;
+  top: 120px;
+  left: -200px;
+  float: right;
+}
+
+#work-experience p {
+  text-transform: uppercase;
+  text-align: left;
+
+  position: relative;
+  top: -25px;
+  left: 10px;
+  letter-spacing: 5px;
+  color: #292d2d;
+
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+
+/* horizontal line next to work experience */
+#work-line {
+  background-color: #292d2d;
+  width: 220px;
+  height: 3px;
+
+  position: relative;
+  top: -8%;
+  left: 77%;
+}
+
+/* vertical line */
+#work-timeline {
+  background-color: #292d2d;
+  width: 3px;
+  height: 1000px;
+
+  position: relative;
+  left: 37%;
+}
+#entry2 #entry2-desc {
+  position: absolute;
+  top: 280px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* ENTRY 3 */
+#circle3 img {
+  position: absolute;
+  top: 390px;
+  left: 162px;
+  height: 50px;
+  width: 50px;
+}
+
+#entry3 #entry3-key {
+  position: absolute;
+  top: 375px;
+
+  font-size: 12pt;
+}
+
+#entry3 #entry3-value {
+  position: absolute;
+  top: 375px;
+  left: 250px;
+
+  font-size: 12pt;
+}
+
+#entry3 #entry3-desc1 {
+  position: absolute;
+  top: 470px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#entry3 #entry3-desc2 {
+  position: absolute;
+  top: 520px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* ENTRY 4 */
+#circle4 img {
+  position: absolute;
+  top: 620px;
+  left: 162px;
+  height: 50px;
+  width: 50px;
+}
+
+#entry4 #entry4-key {
+  position: absolute;
+  top: 605px;
+
+  font-size: 12pt;
+}
+
+#entry4 #entry4-value {
+  position: absolute;
+  top: 605px;
+  left: 250px;
+
+  font-size: 12pt;
+}
+
+#entry4 #entry4-desc {
+  position: absolute;
+  top: 710px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* ENTRY 5 */
+#circle5 img {
+  position: absolute;
+  top: 880px;
+  left: 162px;
+  height: 50px;
+  width: 50px;
+}
+
+#entry5 #entry5-key {
+  position: absolute;
+  top: 865px;
+
+  font-size: 12pt;
+}
+
+#entry5 #entry5-value {
+  position: absolute;
+  top: 860px;
+  left: 250px;
+
+  font-size: 12pt;
+}
+
+#entry5 #entry5-desc {
+  position: absolute;
+  top: 960px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* 
+  EDUCATION
+*/
+#education {
+  /* background-color: aqua; */
+  height: 250px;
+  width: 500px;
+
+  position: relative;
+  top: 250px;
+  left: -200px;
+  float: right;
+}
+
+#education p {
+  text-transform: uppercase;
+  text-align: left;
+
+  position: relative;
+  top: -25px;
+  left: 10px;
+  letter-spacing: 5px;
+  color: #292d2d;
+
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+
+/* horizontal line next to edu experience */
+#edu-line {
+  background-color: #292d2d;
+  width: 300px;
+  height: 3px;
+
+  position: absolute;
+  top: 10%;
+  left: 65%;
+}
+
+/* vertical line */
+#edu-timeline {
+  background-color: #292d2d;
+  width: 3px;
+  height: 150px;
+  top: -30px;
+
+  position: relative;
+  left: 37%;
+}
+
+/* ENTRY 1 */
+#edu-circle1 img {
+  position: absolute;
+  top: 70px;
+  left: 162px;
+  height: 50px;
+  width: 50px;
+}
+
+#edu-entry1 #edu-entry1-key {
+  position: absolute;
+  top: 55px;
+
+  font-size: 12pt;
+}
+
+#edu-entry1 #edu-entry1-value {
+  position: absolute;
+  top: 55px;
+  left: 250px;
+
+  letter-spacing: 0px;
+
+  font-size: 12pt;
+}
+
+#edu-entry1 #edu-entry1-desc1 {
+  position: absolute;
+  top: 130px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#edu-entry1 #edu-entry1-desc2 {
+  position: absolute;
+  top: 160px;
+  left: 270px;
+
+  letter-spacing: 2px;
+
+  color: #525659;
+
+  font-size: 17px;
+  font-weight: 500;
+}
